@@ -212,6 +212,22 @@ main {
     min-height: 100%;
 }
 
+.project {
+    margin-bottom: 20px;
+}
+
+.projectText {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.projectImg {
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 /** Larger Screens - desktops and tablets **/
 @media all and (min-device-width: 1200px) {
     .app-bar {
@@ -228,7 +244,7 @@ main {
     }
 
     .app-bar .logo {
-        float: left;
+        text-align: center;
         margin: 0;
         padding: 0;
         line-height: 130px;
@@ -274,7 +290,7 @@ main {
     .navdrawer-container ul {
         display: -webkit-flex;
         display: flex;
-        max-width: 864px;
+        max-width: 300px;
         margin: 0 auto;
         -webkit-flex-direction: row;
         flex-direction: row;
