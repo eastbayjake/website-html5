@@ -253,6 +253,10 @@ main {
     margin-bottom: 10px;
 }
 
+#contact div span {
+    margin-right: 20px;
+}
+
 footer {
     text-align: center;
     font-weight: bold;
