@@ -54,7 +54,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #70CFA7;
+    /*background-color: #70CFA7;*/
+    background-color: #71EEB8;
     overflow: hidden;
     z-index: 1;
 }
@@ -157,7 +158,8 @@ button.menu img {
     bottom: 0;
     width: 250px;
     height: 100%;
-    background-color: #138F6A;
+    /*background-color: #138F6A;*/
+    background-color: #70CFA7;
     color: #fefefe;
     -webkit-transform: translate(-250px, 0);
     transform: translate(-250px, 0);
@@ -183,7 +185,8 @@ button.menu img {
 
 .navdrawer-container h4 {
     background-color: white;
-    color: #138F6A;
+    /*color: #138F6A;*/
+    color: #70CFA7;
 }
 
 .navdrawer-container ul {
@@ -267,7 +270,8 @@ footer {
         max-width: 864px;
         padding: 0 16px;
         box-sizing: border-box;
-        background-color: #70CFA7;
+        background-color: #71EEB8;
+/*        background-color: #70CFA7;*/
     }
 
     .app-bar .logo {
